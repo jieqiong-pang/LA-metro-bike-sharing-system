@@ -1,0 +1,2 @@
+1. Added a new slide (i.e., ## slide 4 Previous Work), along with the descriptions in the transcript.md file.
+2. Updated descriptions for ## slide 3, ## slide 7, ## slide 8, ## slide 9, ## slide 10, and ## slide 11 in the transcript.md file.
