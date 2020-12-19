@@ -1,0 +1,49 @@
+$overview_tile_gap: 24px;
+
+.intro_container {
+  height: 120vw;
+  padding: $overview_tile_gap $overview_tile_gap;
+  
+  display: grid;
+  grid-template-rows: 0.6fr 1fr;
+  grid-template-columns: 37fr 63fr;
+  grid-template-areas:
+    "d3map d3map_stat"
+    "heatmap heatmap";
+  grid-gap: $overview_tile_gap;
+
+  // .overview_title {
+  //   grid-area: o_title;
+  // }
+
+  .heatmap_tile {
+    grid-area: heatmap;
+
+    @include shadow_tile;
+  }
+
+  .station_d3_map_tile {
+    grid-area: d3map;
+
+    @include shadow_tile;
+    background-color: rgb(64, 175, 219);
+  }
+
+  .station_d3_map_stat_tile {
+    grid-area: d3map_stat;
+
+    @include shadow_tile;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro_container {
+    height: 300vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.25fr 0.75fr 1fr;
+    grid-template-areas:
+      "d3map"
+      "d3map_stat"
+      "heatmap";
+  }
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "name": "4416",
+        "value": 28,
+        "station": "Riverside & Colfax"
+    },
+    {
+        "name": "4384",
+        "value": 26,
+        "station": "Inglewood & Ballona"
+    },
+    {
+        "name": "4418",
+        "value": 26,
+        "station": "Lankershim & Moorpark"
+    },
+    {
+        "name": "4503",
+        "value": 26,
+        "station": "Stanford & Washington"
+    },
+    {
+        "name": "4341",
+        "value": 20,
+        "station": "7th & Westminster"
+    },
+    {
+        "name": "4505",
+        "value": 17,
+        "station": "Glen Alla Park"
+    },
+    {
+        "name": "4337",
+        "value": 13,
+        "station": "Inglewood & Braddock"
+    },
+    {
+        "name": "4379",
+        "value": 13,
+        "station": "Sepulveda & Charnock"
+    },
+    {
+        "name": "4499",
+        "value": 12,
+        "station": "Victory & Colfax"
+    },
+    {
+        "name": "4500",
+        "value": 12,
+        "station": "Burbank & Cahuenga"
+    }
+]

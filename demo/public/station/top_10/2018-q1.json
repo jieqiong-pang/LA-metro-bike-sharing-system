@@ -1,0 +1,52 @@
+[
+    {
+        "name": "4214",
+        "value": 6448,
+        "station": "Ocean Front Walk & Navy"
+    },
+    {
+        "name": "4215",
+        "value": 5315,
+        "station": "Downtown Santa Monica Expo Line Station"
+    },
+    {
+        "name": "4210",
+        "value": 4717,
+        "station": "Ocean Front Walk & North Venice"
+    },
+    {
+        "name": "3005",
+        "value": 4467,
+        "station": "7th & Flower"
+    },
+    {
+        "name": "3014",
+        "value": 3450,
+        "station": "Union Station West Portal"
+    },
+    {
+        "name": "3031",
+        "value": 3255,
+        "station": "7th & Spring"
+    },
+    {
+        "name": "3082",
+        "value": 3252,
+        "station": "Traction & Rose"
+    },
+    {
+        "name": "3064",
+        "value": 3077,
+        "station": "Grand & 7th"
+    },
+    {
+        "name": "3030",
+        "value": 2638,
+        "station": "Main & 1st"
+    },
+    {
+        "name": "3069",
+        "value": 2621,
+        "station": "Broadway & 3rd"
+    }
+]

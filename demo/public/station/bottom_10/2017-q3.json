@@ -1,0 +1,50 @@
+[
+    {
+        "name": "4136",
+        "value": 177,
+        "station": "Waterfront Park (West)"
+    },
+    {
+        "name": "4127",
+        "value": 170,
+        "station": "Catalina Express"
+    },
+    {
+        "name": "3013",
+        "value": 164,
+        "station": "Anaheim & Avalon"
+    },
+    {
+        "name": "4216",
+        "value": 163,
+        "station": "17th St / SMC Expo Line Station"
+    },
+    {
+        "name": "4206",
+        "value": 158,
+        "station": "California & Lincoln"
+    },
+    {
+        "name": "3080",
+        "value": 144,
+        "station": "San Julian & 12th"
+    },
+    {
+        "name": "4213",
+        "value": 88,
+        "station": "7th & Westminster"
+    },
+    {
+        "name": "4125",
+        "value": 66,
+        "station": "Banning's Landing"
+    },
+    {
+        "name": "4108",
+        "value": 61
+    },
+    {
+        "name": "4118",
+        "value": 28
+    }
+]

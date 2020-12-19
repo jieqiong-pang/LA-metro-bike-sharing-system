@@ -1,0 +1,51 @@
+[
+    {
+        "name": "4213",
+        "value": 142,
+        "station": "7th & Westminster"
+    },
+    {
+        "name": "4266",
+        "value": 139,
+        "station": "28th & Figueroa"
+    },
+    {
+        "name": "4135",
+        "value": 133,
+        "station": "Waterfront Park (East)"
+    },
+    {
+        "name": "4134",
+        "value": 122,
+        "station": "USS IOWA"
+    },
+    {
+        "name": "4136",
+        "value": 60,
+        "station": "Waterfront Park (West)"
+    },
+    {
+        "name": "4275",
+        "value": 45,
+        "station": "Expo Park/LAFC"
+    },
+    {
+        "name": "4127",
+        "value": 35,
+        "station": "Catalina Express"
+    },
+    {
+        "name": "3013",
+        "value": 31,
+        "station": "Anaheim & Avalon"
+    },
+    {
+        "name": "4125",
+        "value": 16,
+        "station": "Banning's Landing"
+    },
+    {
+        "name": "4108",
+        "value": 4
+    }
+]

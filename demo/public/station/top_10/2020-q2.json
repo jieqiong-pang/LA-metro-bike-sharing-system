@@ -1,0 +1,52 @@
+[
+    {
+        "name": "3035",
+        "value": 1258,
+        "station": "Figueroa & 8th"
+    },
+    {
+        "name": "3005",
+        "value": 1117,
+        "station": "7th & Flower"
+    },
+    {
+        "name": "4491",
+        "value": 570,
+        "station": "Main & Winston"
+    },
+    {
+        "name": "3067",
+        "value": 523,
+        "station": "Main & 6th"
+    },
+    {
+        "name": "3074",
+        "value": 512,
+        "station": "Hope & Olympic"
+    },
+    {
+        "name": "3006",
+        "value": 462,
+        "station": "Olive & 8th"
+    },
+    {
+        "name": "3064",
+        "value": 424,
+        "station": "Grand & 7th"
+    },
+    {
+        "name": "3076",
+        "value": 407,
+        "station": "9th & Los Angeles"
+    },
+    {
+        "name": "3075",
+        "value": 377,
+        "station": "Broadway & 9th"
+    },
+    {
+        "name": "3047",
+        "value": 375,
+        "station": "Pico & Flower"
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "name": "4422",
+        "value": 24,
+        "station": "Riverside & Cahuenga"
+    },
+    {
+        "name": "4127",
+        "value": 22,
+        "station": "Catalina Express"
+    },
+    {
+        "name": "4108",
+        "value": 18
+    },
+    {
+        "name": "4379",
+        "value": 13,
+        "station": "Sepulveda & Charnock"
+    },
+    {
+        "name": "4125",
+        "value": 6,
+        "station": "Banning's Landing"
+    },
+    {
+        "name": "4467",
+        "value": 6
+    },
+    {
+        "name": "4363",
+        "value": 3
+    },
+    {
+        "name": "4468",
+        "value": 3
+    },
+    {
+        "name": "4395",
+        "value": 2,
+        "station": "Del Rey Day Pop-up"
+    },
+    {
+        "name": "4490",
+        "value": 2,
+        "station": "Figueroa & 4th"
+    }
+]

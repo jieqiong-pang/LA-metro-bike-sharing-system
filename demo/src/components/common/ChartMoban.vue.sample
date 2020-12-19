@@ -1,0 +1,60 @@
+// TODO: Change File's Name
+
+<template>
+  <div>
+    <div id="<!--TODO-->" ></div>
+  </div>
+</template>
+
+<script>
+import * as d3 from 'd3';
+import dayjs from 'dayjs';
+
+export default {
+  name: 'CharMoban',  // TODO
+  data() {
+    return {
+      // eg: 
+      // stat: null,
+    }
+  },
+  props: {
+    chartData: {
+      default: null
+    },
+    aspectRatio: {
+      // avg_height / avg_width
+      type: Number,
+      default: 3/4
+    },
+  },
+  watch: {
+    chartData() {
+      this.createChart();
+    }
+  },
+  methods: {
+    createChart() {
+      // clear the svg img in top div when get new data.
+      // TODO: i.e.: d3.select('#id > *').remove();
+
+      let data = this.chartData;
+
+      // d3 implement chart  // TODO
+    }
+  },
+  // if need resize support, active bellow, modify sub-namespace for resize event, and write resize handler
+  // mounted() {
+  //   d3.select(window).on('resize.sub', this.resize);
+  //   // === window.addEventListener('resize', this.resize);
+  // },
+  // beforeDestroy() {
+  //   d3.select(window).on('resize.sub', null);
+  //   // === window.removeEventListener('resize', this.resize);
+  // },
+}
+</script>
+
+<style lang="scss" scoped>
+  // TODO
+</style>

@@ -1,0 +1,50 @@
+[
+    {
+        "name": "3025",
+        "value": 483,
+        "station": "Grand & Washington"
+    },
+    {
+        "name": "3020",
+        "value": 452,
+        "station": "Hill & Washington"
+    },
+    {
+        "name": "3010",
+        "value": 420,
+        "station": "11th & Maple"
+    },
+    {
+        "name": "3060",
+        "value": 362,
+        "station": "Pico & Maple"
+    },
+    {
+        "name": "3081",
+        "value": 349,
+        "station": "Stanford & 12th"
+    },
+    {
+        "name": "3057",
+        "value": 333,
+        "station": "18th & Figueroa"
+    },
+    {
+        "name": "3045",
+        "value": 234,
+        "station": "18th & San Pedro"
+    },
+    {
+        "name": "3080",
+        "value": 163,
+        "station": "San Julian & 12th"
+    },
+    {
+        "name": "4108",
+        "value": 80
+    },
+    {
+        "name": "3053",
+        "value": 25
+    }
+]

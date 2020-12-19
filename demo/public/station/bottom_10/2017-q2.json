@@ -1,0 +1,51 @@
+[
+    {
+        "name": "4181",
+        "value": 4,
+        "station": "Oak Knoll & Colorado"
+    },
+    {
+        "name": "4155",
+        "value": 3,
+        "station": "Lake & Union"
+    },
+    {
+        "name": "4163",
+        "value": 3,
+        "station": "Lake & Locust"
+    },
+    {
+        "name": "4138",
+        "value": 2,
+        "station": "Old Pasadena"
+    },
+    {
+        "name": "4142",
+        "value": 2,
+        "station": "Pasadena Convention Center"
+    },
+    {
+        "name": "4144",
+        "value": 2,
+        "station": "Cordova & Lake"
+    },
+    {
+        "name": "4165",
+        "value": 2,
+        "station": "Del Mar Station"
+    },
+    {
+        "name": "4170",
+        "value": 2,
+        "station": "Lake & Merrett"
+    },
+    {
+        "name": "3039",
+        "value": 1
+    },
+    {
+        "name": "4183",
+        "value": 1,
+        "station": "Catalina & Colorado"
+    }
+]

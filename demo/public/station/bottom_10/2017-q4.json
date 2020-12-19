@@ -1,0 +1,51 @@
+[
+    {
+        "name": "4135",
+        "value": 134,
+        "station": "Waterfront Park (East)"
+    },
+    {
+        "name": "4134",
+        "value": 118,
+        "station": "USS IOWA"
+    },
+    {
+        "name": "4174",
+        "value": 111,
+        "station": "Fair Oaks & Hammond"
+    },
+    {
+        "name": "3080",
+        "value": 109,
+        "station": "San Julian & 12th"
+    },
+    {
+        "name": "4136",
+        "value": 93,
+        "station": "Waterfront Park (West)"
+    },
+    {
+        "name": "4127",
+        "value": 91,
+        "station": "Catalina Express"
+    },
+    {
+        "name": "4125",
+        "value": 48,
+        "station": "Banning's Landing"
+    },
+    {
+        "name": "4227",
+        "value": 36,
+        "station": "Grand / LATTC"
+    },
+    {
+        "name": "3013",
+        "value": 32,
+        "station": "Anaheim & Avalon"
+    },
+    {
+        "name": "4108",
+        "value": 9
+    }
+]

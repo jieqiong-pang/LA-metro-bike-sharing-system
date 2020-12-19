@@ -1,0 +1,49 @@
+[
+    {
+        "name": "3024",
+        "value": 324,
+        "station": "Hope & 1st"
+    },
+    {
+        "name": "3039",
+        "value": 230
+    },
+    {
+        "name": "3020",
+        "value": 216,
+        "station": "Hill & Washington"
+    },
+    {
+        "name": "3057",
+        "value": 180,
+        "station": "18th & Figueroa"
+    },
+    {
+        "name": "3060",
+        "value": 156,
+        "station": "Pico & Maple"
+    },
+    {
+        "name": "3045",
+        "value": 151,
+        "station": "18th & San Pedro"
+    },
+    {
+        "name": "4108",
+        "value": 151
+    },
+    {
+        "name": "3009",
+        "value": 123
+    },
+    {
+        "name": "3010",
+        "value": 123,
+        "station": "11th & Maple"
+    },
+    {
+        "name": "3080",
+        "value": 68,
+        "station": "San Julian & 12th"
+    }
+]

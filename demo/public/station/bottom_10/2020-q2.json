@@ -1,0 +1,52 @@
+[
+    {
+        "name": "4385",
+        "value": 7,
+        "station": "Public Bike Rack: Westwood/Rancho Park Expo Line"
+    },
+    {
+        "name": "4500",
+        "value": 7,
+        "station": "Burbank & Cahuenga"
+    },
+    {
+        "name": "4372",
+        "value": 6,
+        "station": "Public Bike Rack: Culver City Expo Line"
+    },
+    {
+        "name": "4380",
+        "value": 6,
+        "station": "Centinela & Lucile"
+    },
+    {
+        "name": "4463",
+        "value": 5,
+        "station": "Tujunga & Hatteras"
+    },
+    {
+        "name": "4499",
+        "value": 5,
+        "station": "Victory & Colfax"
+    },
+    {
+        "name": "4498",
+        "value": 4,
+        "station": "Vineland & Oxnard"
+    },
+    {
+        "name": "4394",
+        "value": 3,
+        "station": "Westlawn & Beatrice"
+    },
+    {
+        "name": "4408",
+        "value": 1,
+        "station": "Venice & Sawtelle"
+    },
+    {
+        "name": "4432",
+        "value": 1,
+        "station": "Public Bike Rack: Universal City/Studio City Red Line Station"
+    }
+]

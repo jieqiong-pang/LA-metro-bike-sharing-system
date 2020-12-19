@@ -1,0 +1,52 @@
+[
+    {
+        "name": "3082",
+        "value": 3112,
+        "station": "Traction & Rose"
+    },
+    {
+        "name": "3005",
+        "value": 2868,
+        "station": "7th & Flower"
+    },
+    {
+        "name": "3069",
+        "value": 2781,
+        "station": "Broadway & 3rd"
+    },
+    {
+        "name": "3031",
+        "value": 2470,
+        "station": "7th & Spring"
+    },
+    {
+        "name": "3042",
+        "value": 2468,
+        "station": "1st & Central"
+    },
+    {
+        "name": "3064",
+        "value": 2335,
+        "station": "Grand & 7th"
+    },
+    {
+        "name": "3014",
+        "value": 2316,
+        "station": "Union Station West Portal"
+    },
+    {
+        "name": "3022",
+        "value": 2254,
+        "station": "3rd & Santa Fe"
+    },
+    {
+        "name": "3030",
+        "value": 2172,
+        "station": "Main & 1st"
+    },
+    {
+        "name": "3063",
+        "value": 2001,
+        "station": "Olive & 5th"
+    }
+]

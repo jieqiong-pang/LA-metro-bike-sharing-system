@@ -1,0 +1,87 @@
+$h1-margin: 4vw;
+
+// all page layout
+.dv-container-shadow {
+  background-color: #fff;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}
+
+.dv-page-h1 {
+  margin-top: $h1-margin;
+  margin-bottom: $h1-margin;
+}
+
+// div setting
+.over_map {
+  z-index: 500;
+}
+
+.dv_hide {
+  display: none;
+}
+
+// chart container
+.dv_chart_container_all {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.dv_chart_container {
+  flex: 1;
+  align-items: stretch;
+}
+
+// chart container test
+@mixin dv-test-bg {
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+  background-color: rgb(236, 236, 236);
+  // margin-top: 3px;
+}
+
+.dv-test-box-xl {
+  width: 1300px;
+  height: 1000px;
+
+  @include dv-test-bg();
+}
+
+.dv-test-box-lg {
+  width: 1000px;
+  height: 800px;
+
+  @include dv-test-bg();
+}
+
+.dv-test-box-md {
+  width: 850px;
+  height: 600px;
+
+  @include dv-test-bg();
+}
+
+.dv-test-box-sm {
+  width: 650px;
+  height: 400px;
+
+  @include dv-test-bg();
+}
+
+.dv-test-box-xs {
+  width: 400px;
+  height: 300px;
+
+  @include dv-test-bg();
+}
+
+.dv-test-box-responsive {
+  @include dv-test-bg();
+}
+
+// .please_select_a {
+//   height: 40%;
+//   text-align: center;
+//   vertical-align: middle;
+// }

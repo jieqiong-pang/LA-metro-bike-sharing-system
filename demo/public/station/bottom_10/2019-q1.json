@@ -1,0 +1,52 @@
+[
+    {
+        "name": "4341",
+        "value": 21,
+        "station": "7th & Westminster"
+    },
+    {
+        "name": "4328",
+        "value": 20,
+        "station": "Sepulveda & Palms"
+    },
+    {
+        "name": "4369",
+        "value": 20,
+        "station": "Pop-up Station at CicLAvia Culver City Hub"
+    },
+    {
+        "name": "4372",
+        "value": 16,
+        "station": "Public Bike Rack: Culver City Expo Line"
+    },
+    {
+        "name": "4374",
+        "value": 15,
+        "station": "_ReUse Westside Only_02"
+    },
+    {
+        "name": "4125",
+        "value": 8,
+        "station": "Banning's Landing"
+    },
+    {
+        "name": "4382",
+        "value": 7,
+        "station": "Westwood & National"
+    },
+    {
+        "name": "4379",
+        "value": 6,
+        "station": "Sepulveda & Charnock"
+    },
+    {
+        "name": "4373",
+        "value": 4,
+        "station": "_ReUse Westside Only_01"
+    },
+    {
+        "name": "4378",
+        "value": 4,
+        "station": "Palms & Kelton"
+    }
+]

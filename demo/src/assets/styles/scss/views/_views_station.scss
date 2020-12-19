@@ -1,0 +1,47 @@
+@import "views_station_layout.scss";
+
+
+// moving line in the map
+@mixin line_props {
+  // stroke-width: 4px;
+  stroke-dasharray: 30;
+}
+
+@mixin line_animation {
+  animation: draw 40s linear;
+  animation-iteration-count:infinite;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+@mixin map_line($line_color, $line_opacity) {
+  stroke: $line_color;
+  opacity: $line_opacity;
+  
+  @include line_props;
+  @include line_animation;
+}
+
+.map_out_line {
+  @include map_line(red, .5);
+}
+
+.map_in_line {
+  @include map_line(blue, .5);
+}
+
+// font
+.chart_title {
+  font-size: 1.2rem;
+}
+
+// icon
+.image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}

@@ -1,0 +1,454 @@
+$tile_gap: 24px;
+
+.dv_station_page {
+  height: calc(100vh - 66px);
+}
+
+.dv_station_container {
+  display: grid;
+  height: 53.75vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.3fr 1fr 2.5fr;
+  grid-template-areas:
+    "the10 title"
+    "the10 station"
+    "the10 chosen"
+    "map chosen";
+  padding: 20px 20px;
+  grid-gap: $tile_gap;
+
+  .dv_station_title_section {
+    display: flex;
+    align-items: center;
+    grid-area: title;
+
+    .dv_station_title_text {
+      width: 100%;
+      text-align: left;
+      text-indent: 10%;
+      font-size: 1.5rem;
+      font-weight: bold;
+      font-family: Avenir, Helvetica, Arial, sans-serif;
+    }
+  }
+
+  .dv_station_10_section {
+    grid-area: the10;
+
+    .dv_station_the10_total {
+      height: 100%;
+      white-space: nowrap;
+
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "top10 bottom10";
+      grid-gap: $tile_gap;
+
+      .dv_station_top10_tile {
+        grid-area: top10;
+        @include shadow_tile;
+      }
+
+      .dv_station_bottom10_tile {
+        grid-area: bottom10;
+        @include shadow_tile;
+      }
+    }
+  }
+
+  .dv_station_station_selection_section {
+    grid-area: station;
+    display: grid;
+    grid-template-columns: 0.4fr 0.9fr 0.1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "station-name station-dropdown .";
+
+    @include shadow_tile;
+
+    .dv_station_station_name {
+      // background-color: darkgrey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-area: station-name;
+    }
+
+    .dv_station_station_dropdown {
+      // background-color: darkgrey;
+      display: flex;
+      align-items: center;
+      grid-area: station-dropdown;
+    }
+  }
+
+  .dv_station_map_section {
+    background-color: burlywood;
+    grid-area: map;
+
+    @include shadow_tile;
+  }
+
+  .dv_station_chosen_section {
+    height: 100%;
+    grid-area: chosen;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "chosen-true";
+
+    .dv_station_chosen_total {
+      height: 100%;
+      grid-area: chosen-true;
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "num histogram"
+        "donut linechart";
+      grid-gap: $tile_gap;
+
+      .dv_station_num_section {
+        height: 100%;
+        grid-area: num;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "num-true";
+
+        .dv_station_chosen_total_stats {
+          height: 100%;
+          grid-area: num-true;
+
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr 1fr;
+          grid-template-areas:
+            "count"
+            "duration";
+          grid-gap: $tile_gap;
+
+          .dv_station_chosen_total_stats_cnt {
+            height: 100%;
+            background-color: $metro-green;
+            grid-area: count;
+
+            @include shadow_tile;
+
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1.4rem 1fr;
+            grid-template-areas:
+              "count-header"
+              "count-body";
+
+            .dv_station_chosen_total_stats_cnt_header {
+              height: 100%;
+              grid-area: count-header;
+
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 100%;
+
+              .dv_station_chosen_total_stats_cnt_header_icon {
+                height: 100%;
+                width: 20%;
+                display: flex;
+                align-items: center;
+              }
+
+              .dv_station_chosen_total_stats_cnt_header_title {
+                height: 100%;
+                display: flex;
+                align-items: center;
+              }
+            }
+
+            .dv_station_chosen_total_stats_cnt_body {
+              grid-area: count-body;
+
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              grid-template-rows: 1fr;
+              grid-template-areas: "count-out count-in";
+
+              .dv_station_chosen_total_stats_cnt_body_in {
+                grid-area: count-in;
+
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-areas:
+                  ". count-in-icon ."
+                  "count-in-num count-in-num count-in-num"
+                  "count-in-note count-in-note count-in-note";
+
+                .dv_station_chosen_total_stats_cnt_body_in_icon {
+                  grid-area: count-in-icon;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                }
+
+                .dv_station_chosen_total_stats_cnt_body_in_num {
+                  grid-area: count-in-num;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  white-space: nowrap;
+                }
+
+                .dv_station_chosen_total_stats_cnt_body_in_note {
+                  grid-area: count-in-note;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  white-space: nowrap;
+                }
+              }
+
+              .dv_station_chosen_total_stats_cnt_body_out {
+                grid-area: count-out;
+
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-areas:
+                  ". count-out-icon ."
+                  "count-out-num count-out-num count-out-num"
+                  "count-out-note count-out-note count-out-note";
+
+                .dv_station_chosen_total_stats_cnt_body_out_icon {
+                  grid-area: count-out-icon;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                }
+
+                .dv_station_chosen_total_stats_cnt_body_out_num {
+                  grid-area: count-out-num;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  white-space: nowrap;
+                }
+
+                .dv_station_chosen_total_stats_cnt_body_out_note {
+                  grid-area: count-out-note;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  white-space: nowrap;
+                }
+              }
+            }
+          }
+
+          .dv_station_chosen_total_stats_dur {
+            height: 100%;
+            background-color: $metro-yellowgreen;
+            grid-area: duration;
+
+            @include shadow_tile;
+
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1.4rem 1fr;
+            grid-template-areas:
+              "duration-header"
+              "duration-body";
+
+            .dv_station_chosen_total_stats_dur_header {
+              grid-area: duration-header;
+
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 100%;
+
+              .dv_station_chosen_total_stats_dur_header_icon {
+                width: 20%;
+                display: flex;
+                align-items: center;
+              }
+
+              .dv_station_chosen_total_stats_dur_header_title {
+                display: flex;
+                align-items: center;
+              }
+            }
+
+            .dv_station_chosen_total_stats_dur_body {
+              grid-area: duration-body;
+
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              grid-template-rows: 1fr;
+              grid-template-areas: "duration-out duration-in";
+
+              .dv_station_chosen_total_stats_dur_body_in {
+                grid-area: duration-in;
+
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-areas:
+                  ". duration-in-icon ."
+                  "duration-in-num duration-in-num duration-in-num"
+                  "duration-in-note duration-in-note duration-in-note";
+
+                .dv_station_chosen_total_stats_dur_body_in_icon {
+                  grid-area: duration-in-icon;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                }
+
+                .dv_station_chosen_total_stats_dur_body_in_num {
+                  grid-area: duration-in-num;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  white-space: nowrap;
+                }
+
+                .dv_station_chosen_total_stats_dur_body_in_note {
+                  grid-area: duration-in-note;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  white-space: nowrap;
+                }
+              }
+
+              .dv_station_chosen_total_stats_dur_body_out {
+                grid-area: duration-out;
+
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-areas:
+                  ". duration-out-icon ."
+                  "duration-out-num duration-out-num duration-out-num"
+                  "duration-out-note duration-out-note duration-out-note";
+
+                .dv_station_chosen_total_stats_dur_body_out_icon {
+                  grid-area: duration-out-icon;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                }
+
+                .dv_station_chosen_total_stats_dur_body_out_num {
+                  grid-area: duration-out-num;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  white-space: nowrap;
+                }
+
+                .dv_station_chosen_total_stats_dur_body_out_note {
+                  grid-area: duration-out-note;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  white-space: nowrap;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .dv_station_bar_section {
+        // background-color: darkseagreen;
+        grid-area: histogram;
+
+        @include shadow_tile;
+      }
+
+      .dv_station_donut_section {
+        // background-color: darkseagreen;
+        grid-area: donut;
+        @include shadow_tile;
+      }
+
+      .dv_station_line_section {
+        // background-color: darkseagreen;
+        grid-area: linechart;
+        @include shadow_tile;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  /* calc(140vh - 20em) */
+  .dv_station_container {
+    height: 197.5vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 3fr 0.24fr 0.16fr 3fr;
+    grid-template-areas:
+      "the10"
+      "map"
+      "title"
+      "station"
+      "chosen";
+    .dv_station_title_section {
+      .dv_station_title_text {
+        text-indent: 0%;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .dv_station_container {
+    height: 570vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 1fr 0.12fr 0.08fr 3fr;
+
+    .dv_station_10_section {
+      .dv_station_the10_total {
+        // overflow-y: scroll;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+          "top10"
+          "bottom10";
+      }
+    }
+    .dv_station_chosen_section {
+      .dv_station_chosen_total {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+          "num"
+          "histogram"
+          "donut"
+          "linechart";
+      }
+    }
+  }
+}
+
+// font
+.dv_station_chosen_total_stats_cnt_header_title,
+.dv_station_chosen_total_stats_dur_header_title {
+  font-size: 1.1rem;
+}
+
+.dv_station_chosen_total_stats_cnt_body_in_num,
+.dv_station_chosen_total_stats_dur_body_in_num {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: blue;
+}
+
+.dv_station_chosen_total_stats_cnt_body_out_num,
+.dv_station_chosen_total_stats_dur_body_out_num {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: red;
+}

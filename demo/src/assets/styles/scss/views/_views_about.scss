@@ -1,0 +1,123 @@
+@mixin profile_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+}
+
+.about {
+  margin: 10px 100px 10px 100px;
+}
+
+.dv-about-h1 {
+//   border: 1px solid red;
+  margin: 80px 0 10px 0;
+}
+
+.dv-about-projectintro,
+.dv-about-teamintro {
+  margin: 10px 20px 10px 20px;
+}
+
+.dv-about-teammembers {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "teammember1 teammember2 teammember3 teammember4";
+  grid-gap: 20px;
+
+  .dv-about-teammember1 {
+    grid-area: teammember1;
+
+    @include profile_grid;
+    grid-template-areas:
+      "teammember1-photo"
+      "teammember1-intro"
+      "teammember1-contact";
+
+    .dv-about-teammember1-photo {
+      width: 100%;
+      height: 100%;
+      // @include shadow_tile;
+    }
+
+    .dv-about-teammember1-intro {
+      margin: 20px 0 20px 0;
+    }
+  }
+
+  .dv-about-teammember2 {
+    grid-area: teammember2;
+
+    @include profile_grid;
+    grid-template-areas:
+      "teammember2-photo"
+      "teammember2-intro"
+      "teammember2-contact";
+
+    .dv-about-teammember2-photo {
+      width: 100%;
+      height: 100%;
+      // @include shadow_tile;
+    }
+
+    .dv-about-teammember2-intro {
+      margin: 20px 0 20px 0;
+    }
+  }
+
+  .dv-about-teammember3 {
+    grid-area: teammember3;
+
+    @include profile_grid;
+    grid-template-areas:
+      "teammember3-photo"
+      "teammember3-intro"
+      "teammember3-contact";
+
+    .dv-about-teammember3-photo {
+      width: 100%;
+      height: 100%;
+      // @include shadow_tile;
+    }
+
+    .dv-about-teammember3-intro {
+      margin: 20px 0 20px 0;
+    }
+  }
+
+  .dv-about-teammember4 {
+    grid-area: teammember4;
+
+    @include profile_grid;
+    grid-template-areas:
+      "teammember4-photo"
+      "teammember4-intro"
+      "teammember4-contact";
+
+    .dv-about-teammember4-photo {
+      width: 100%;
+      height: 100%;
+      // @include shadow_tile;
+    }
+
+    .dv-about-teammember4-intro {
+      margin: 20px 0 20px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .dv-about-teammembers {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "teammember1 teammember2"
+      "teammember3 teammember4";
+  }
+}
+
+.dv-about-teammember-name {
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}

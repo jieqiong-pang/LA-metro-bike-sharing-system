@@ -1,0 +1,52 @@
+[
+    {
+        "name": "3005",
+        "value": 8104,
+        "station": "7th & Flower"
+    },
+    {
+        "name": "3030",
+        "value": 6571,
+        "station": "Main & 1st"
+    },
+    {
+        "name": "3014",
+        "value": 5882,
+        "station": "Union Station West Portal"
+    },
+    {
+        "name": "3031",
+        "value": 4215,
+        "station": "7th & Spring"
+    },
+    {
+        "name": "3035",
+        "value": 3354,
+        "station": "Figueroa & 8th"
+    },
+    {
+        "name": "3006",
+        "value": 3321,
+        "station": "Olive & 8th"
+    },
+    {
+        "name": "3042",
+        "value": 2984,
+        "station": "1st & Central"
+    },
+    {
+        "name": "3064",
+        "value": 2873,
+        "station": "Grand & 7th"
+    },
+    {
+        "name": "4345",
+        "value": 2804,
+        "station": "Ocean Front Walk & Navy"
+    },
+    {
+        "name": "3007",
+        "value": 2752,
+        "station": "5th & Grand"
+    }
+]

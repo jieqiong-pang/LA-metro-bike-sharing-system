@@ -1,0 +1,18 @@
+@import "setup/normalize.scss";
+@import "setup/typography.scss";
+@import "setup/variables.scss";
+@import "setup/mixins.scss";
+
+@import "basics/base.scss";
+@import "basics/layout.scss";
+@import "basics/links.scss";
+@import "basics/button.scss";
+
+@import "views/views_overview.scss";
+@import "views/views_station.scss";
+@import "views/views_system.scss";
+@import "views/views_about";
+
+// in order to override default bootstrap variable, these two file must be imported at last
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';

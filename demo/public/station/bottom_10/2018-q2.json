@@ -1,0 +1,51 @@
+[
+    {
+        "name": "4135",
+        "value": 127,
+        "station": "Waterfront Park (East)"
+    },
+    {
+        "name": "4136",
+        "value": 91,
+        "station": "Waterfront Park (West)"
+    },
+    {
+        "name": "4127",
+        "value": 71,
+        "station": "Catalina Express"
+    },
+    {
+        "name": "4227",
+        "value": 60,
+        "station": "Grand / LATTC"
+    },
+    {
+        "name": "3013",
+        "value": 46,
+        "station": "Anaheim & Avalon"
+    },
+    {
+        "name": "4125",
+        "value": 16,
+        "station": "Banning's Landing"
+    },
+    {
+        "name": "4244",
+        "value": 15,
+        "station": "Expo Park/USC Station"
+    },
+    {
+        "name": "4254",
+        "value": 10,
+        "station": "Hoover & 29th"
+    },
+    {
+        "name": "4249",
+        "value": 9,
+        "station": "Figueroa & McCarthy Way"
+    },
+    {
+        "name": "4108",
+        "value": 3
+    }
+]

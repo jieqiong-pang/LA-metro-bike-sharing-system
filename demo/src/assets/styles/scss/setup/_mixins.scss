@@ -1,0 +1,5 @@
+@mixin shadow_tile {
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}

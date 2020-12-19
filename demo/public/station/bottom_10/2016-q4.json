@@ -1,0 +1,51 @@
+[
+    {
+        "name": "3078",
+        "value": 464,
+        "station": "Hill & College"
+    },
+    {
+        "name": "3020",
+        "value": 461,
+        "station": "Hill & Washington"
+    },
+    {
+        "name": "3054",
+        "value": 420,
+        "station": "Factory Place & Alameda"
+    },
+    {
+        "name": "3079",
+        "value": 390,
+        "station": "Temple & Vignes"
+    },
+    {
+        "name": "3010",
+        "value": 296,
+        "station": "11th & Maple"
+    },
+    {
+        "name": "3057",
+        "value": 260,
+        "station": "18th & Figueroa"
+    },
+    {
+        "name": "3060",
+        "value": 249,
+        "station": "Pico & Maple"
+    },
+    {
+        "name": "3080",
+        "value": 137,
+        "station": "San Julian & 12th"
+    },
+    {
+        "name": "3045",
+        "value": 119,
+        "station": "18th & San Pedro"
+    },
+    {
+        "name": "4108",
+        "value": 32
+    }
+]

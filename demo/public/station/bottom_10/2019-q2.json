@@ -1,0 +1,47 @@
+[
+    {
+        "name": "4363",
+        "value": 11
+    },
+    {
+        "name": "4374",
+        "value": 8,
+        "station": "_ReUse Westside Only_02"
+    },
+    {
+        "name": "4395",
+        "value": 6,
+        "station": "Del Rey Day Pop-up"
+    },
+    {
+        "name": "4108",
+        "value": 4
+    },
+    {
+        "name": "4327",
+        "value": 2
+    },
+    {
+        "name": "4362",
+        "value": 2
+    },
+    {
+        "name": "4394",
+        "value": 2,
+        "station": "Westlawn & Beatrice"
+    },
+    {
+        "name": "4321",
+        "value": 1
+    },
+    {
+        "name": "4373",
+        "value": 1,
+        "station": "_ReUse Westside Only_01"
+    },
+    {
+        "name": "4393",
+        "value": 1,
+        "station": "Durango & Venice"
+    }
+]

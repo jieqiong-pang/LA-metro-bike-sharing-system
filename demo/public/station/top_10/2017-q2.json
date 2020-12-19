@@ -1,0 +1,52 @@
+[
+    {
+        "name": "3005",
+        "value": 5195,
+        "station": "7th & Flower"
+    },
+    {
+        "name": "3082",
+        "value": 4474,
+        "station": "Traction & Rose"
+    },
+    {
+        "name": "3014",
+        "value": 4146,
+        "station": "Union Station West Portal"
+    },
+    {
+        "name": "3042",
+        "value": 3845,
+        "station": "1st & Central"
+    },
+    {
+        "name": "3031",
+        "value": 3761,
+        "station": "7th & Spring"
+    },
+    {
+        "name": "3069",
+        "value": 3728,
+        "station": "Broadway & 3rd"
+    },
+    {
+        "name": "3064",
+        "value": 3724,
+        "station": "Grand & 7th"
+    },
+    {
+        "name": "3030",
+        "value": 3204,
+        "station": "Main & 1st"
+    },
+    {
+        "name": "3063",
+        "value": 2972,
+        "station": "Olive & 5th"
+    },
+    {
+        "name": "3035",
+        "value": 2848,
+        "station": "Figueroa & 8th"
+    }
+]
