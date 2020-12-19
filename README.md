@@ -23,7 +23,7 @@ __📄  Paper__ [Overleaf read only link](https://www.overleaf.com/project/5fb35
 
 __🚢  Demo__ [Transcript](video/TRANSCRIPT.md) | [Demo link](http://pdms.usc.edu/dsci-554-projects/project-love554/)
 
-__🎥  Video__ [Transcript](video/TRANSCRIPT.md) | [YouTube link]()
+__🎥  Video__ [Transcript](video/TRANSCRIPT.md) | [YouTube link](https://youtu.be/R-OWenNrUKA)
 
 ---
 
